@@ -177,7 +177,7 @@ app.get('/api/minecraft', function (req, res) {
 });
 
 app.get('*', function(req, res){
-  res.status(404).json({ '404': 'Not Found! Enter IP AND PORT', 'Example': '/api/samp?ip={ip}&port={port}', 'Author': 'Xalbador' });
+  res.status(404).json({ '404': 'Not Found! Enter IP AND PORT', 'Example': '/api/samp?ip={ip}&port={port}', 'Author': 'Hezxy' });
 });
 
 app.listen(port, () => console.log(`listening at port ${port}`));
